@@ -23,7 +23,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (rubocop rubocopfmt ruby-electric neotree poly-erb projectile-rails rspec-mode markdown-mode haml-mode rbenv feature-mode nlinum nlinum-hl yaml-mode web-mode scss-mode yari inf-ruby ruby-tools company-anaconda anaconda-mode company-auctex cdlatex auctex gotest go-projectile go-eldoc company-go go-mode coffee-mode helm-projectile helm geiser json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company counsel swiper ivy vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
+    (magit-gh-pulls rubocop rubocopfmt ruby-electric neotree poly-erb projectile-rails rspec-mode markdown-mode haml-mode rbenv feature-mode nlinum nlinum-hl yaml-mode web-mode scss-mode yari inf-ruby ruby-tools company-anaconda anaconda-mode company-auctex cdlatex auctex gotest go-projectile go-eldoc company-go go-mode coffee-mode helm-projectile helm geiser json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company counsel swiper ivy vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(safe-local-variable-values (quote ((flycheck-disabled-checkers emacs-lisp-checkdoc))))
  '(save-place-mode nil)
@@ -59,4 +59,5 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "WhiteSmoke" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "nil" :family "Monaco")))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "WhiteSmoke" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 180 :width normal :foundry "nil" :family "Monaco"))))
+ '(completions-common-part ((t (:background "black" :foreground "WhiteSmoke" :slant normal :weight normal :height 1.0 :width normal)))))
